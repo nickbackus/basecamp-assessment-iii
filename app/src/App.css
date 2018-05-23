@@ -1,0 +1,18 @@
+@font-face{
+  font-family:'digital-clock-font';
+  src: url("digitalFont.ttf");
+ }
+
+#digitalClock, .TickTock, .Time {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  font-family: "digital-clock-font";
+  font-size: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#digitalClock div {
+  width: 200px;
+}
